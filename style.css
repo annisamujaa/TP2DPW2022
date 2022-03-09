@@ -1,0 +1,225 @@
+*{
+    padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        'header'
+        'main1'
+        'main2'
+        'main3'
+        'main4'
+        'main5'
+        'main6'
+        'footer';
+    grid-gap: 15px;
+}
+
+/* BAGIAN HEADER */
+.header{
+    background-color: #DCDCDC;
+    grid-area: header;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    padding: 1em 0em 0em 55em;
+    word-spacing: 20px;
+    color: white;
+}
+
+.header a{
+    color: #808080;
+	text-decoration: none;
+}
+
+.btnregister{
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+    font-size: 15px;
+}
+
+.btnlogin{
+    width: 80px;
+    height: 25px;
+    color: white;
+    background-color: black;
+    border: 0.5px solid black;
+    font-size: 15px;
+}
+
+.option a:hover{
+	font-weight: bold;
+}
+
+/* BAGIAN MAIN 1 */
+.main1{
+    padding-top: 6em;
+    text-align: center;
+    grid-area: main1;
+}
+
+.main1 img{
+    width: 250px;
+    padding-bottom:20px;
+}
+
+/* BAGIAN MAIN 2 */
+.main2{
+    grid-area: main2;
+    
+}
+
+.gambar1{
+    width: 100%;
+    height: auto;
+    padding: 2em 0em 1em 0em;
+}
+
+/* BAGIAN MAIN 3 */
+.main3{
+    grid-area: main3;
+    text-align: center;
+    height: 420px;
+}
+
+.main3 img{
+    margin-top: 40px;
+    width: 300px;
+    height: auto;
+    margin-inline: 50px;
+}
+
+/* BAGIAN MAIN 4 */
+.main4{
+    grid-area: main4;
+    text-align: center;
+    background-color: #DCDCDC;
+    height: 500px;
+}
+
+.main4 h2{
+    margin: 1em 0em 1em 0em;
+}
+
+.model{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px #B0C4DE;
+    width: 250px;
+    height: 380px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card p{
+    padding: 1em 1.5em 1em 1.5em;
+    text-align: justify;
+    font-size: 12px;
+}
+
+/* BAGIAN MAIN 5 */
+.main5{
+    grid-area: main5;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1em 0em 1em 0em;
+}
+.carddetail {
+    width: 700px;
+    padding: 2em;
+    margin-top: 20px;
+}
+
+.carddetail img{
+    height: 300px;
+    border: 0.5px solid #DCDCDC;
+}
+
+.carddetail p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+/* BAGIAN MAIN 6 */
+.main6{
+    grid-area: main6;
+    height: 200px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item{
+    border: 1px solid #DCDCDC;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.grid-item p{
+    padding: 1em 0em 1.5em 0em;
+}
+
+.grid-item a{
+    color: black;
+}
+
+/* FOOTER */
+.footer{
+    grid-column: footer;
+    background-color: #808080;
+    height: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* CSS HALAMAN DETAIL */
+.detail{
+    padding-top: 6em;
+    grid-area: main1;
+    display: grid;
+    grid-template-columns: auto auto;   
+}
+
+.gambar{
+    padding-left: 5em;
+}
+
+.detail h1{
+    padding-bottom: 1em;
+}
+
+.deskripsi{
+    padding: 4.5em 5em 0em 0em;
+    text-align: justify;
+}
+
+.detail img{
+    border: 3px solid #808080;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.detail p, li{
+    padding: 1em 0em 1em 0em;
+    font-size: 15px;
+}
+
+.detail ul{
+    padding-left: 20px;
+}
